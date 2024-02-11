@@ -1,0 +1,186 @@
+body{
+    background-image: url(New\ folder/images/chat.jpeg);
+    background-image: fixed;
+}
+
+img{
+    width: 120px;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+}
+
+.tophead{
+    padding: 2px;
+    background-color: black;
+    width: 550px;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.tophead:before > .tophead{
+    transition: 2s;
+    background-color: red;
+}
+
+nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+
+}
+
+ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5;
+    width: 550px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    transition: 2s;
+}
+ul a:hover{
+    color: gold;
+    letter-spacing: 1px;
+    transition: 2s;
+}
+li{
+    width: 500px;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+li a{
+    color: white;
+}
+
+.formm{
+    margin: 50px;
+    padding: 0.1em;
+    height: 800px;
+    width: 530px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px -1px 24px 20px rgba(0,0,0,0.75);
+}
+h6{
+    text-align: center;
+    font-family: cursive;
+    position: relative;
+    bottom: 90px;
+    font-size: 2em;
+    color: blue;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+input[type=Username], input[type=Firstname], input[type=Password]{
+    width: 400px;
+    padding: 3px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    border-color: blue;
+}
+
+.use{
+    padding: 5px;
+}
+
+.fas{
+    padding: 4px;
+}
+
+.all{
+    margin: 50px;
+}
+.one{
+    position: relative;
+    bottom: 100px;
+}
+.first{
+    position: relative;
+    bottom: 50px;
+}
+
+.pass{
+    position: relative;
+    bottom: 5px;
+}
+
+.lastp{
+    position: relative;
+    top: 35px;
+}
+
+.mmm{
+    position: relative;
+    top: 20px;
+}
+
+input[type=button]{
+    padding: 15px;
+    width: 410px;
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+    border-color: gold;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+h3{
+    position: relative;
+    top: 20px;
+}
+
+h3 a{
+    text-decoration: none;
+    color: blue
+}
+
+h2{
+    font-family: cursive;
+    position: relative;
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    top: 25px;
+    font-size: 1em;
+}
+h2:before{
+    background-color: black;
+    display: block;
+    height: 2px;
+    content:"";
+    width: 190px;
+    position: relative;
+    top: 14.3px;
+}
+
+h2:after{
+    background-color: black;
+    display: block;
+    height: 2px;
+    content: "";
+    width: 190px;
+    position: relative;
+    left: 240px;
+    top: -10px;
+}
+
+.fa-brands{
+    width: 40px;
+    font-size: x-large;
+    position: relative;
+    left: 209px;
+}
